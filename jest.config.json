@@ -19,5 +19,5 @@
     "testRegex": "src/.*/.*\\.spec\\.ts$",
     "collectCoverageFrom": [
       "<rootDir>/src/**/*"
-    ],
+    ]
 }

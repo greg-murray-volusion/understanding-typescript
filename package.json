@@ -36,7 +36,7 @@
     "typescript": "^3.3.3"
   },
   "scripts": {
-    "compile": "tsc --watch --project tsconfig.json --watch",
+    "compile": "tsc --watch --project tsconfig.json",
     "doc": "typedoc --out docs/tsdocs lib/store-api/src",
     "test": "jest --env node --config ./jest.config.json --watch",
     "tslint": "tslint --project tsconfig.json -c tslint.json 'src/**/*.ts' --fix"
