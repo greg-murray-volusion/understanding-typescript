@@ -1,6 +1,6 @@
 # understanding-typescript
 
-From O'Reilly "Understanding Typescript" video course
+From O'Reilly ["Understanding Typescript"](https://learning.oreilly.com/videos/understanding-typescript/9781789951905) video course
 
 ## TSC
 
