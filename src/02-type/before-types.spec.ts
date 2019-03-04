@@ -1,7 +1,9 @@
+// exercise: convert to types and interfaces
+
 /* tslint:disable */
 let bankAccount = {
     money: 2000,
-    // @ts-ignore: no implict any
+    // @ts-ignore: no implicit any
     deposit(value) {
         this.money += value;
     }
