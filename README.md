@@ -7,10 +7,12 @@ From O'Reilly "Understanding Typescript" video course
 ```json
 {
   "noImplicitAny": true,
-  "noUnusedParameters": true, // override _param
+  "noUnusedParameters": true,
   "sourceMap": true
 }
 ```
+
+Unused parameters can be prefixed with _ to avoid error.
 
 ## Classes
 
