@@ -1,4 +1,4 @@
-// exercise: convert to types and interfaces
+// exercise: convert to es6 and Typescript
 
 /* tslint:disable */
 describe("Convert to es6 and ts", () => {
