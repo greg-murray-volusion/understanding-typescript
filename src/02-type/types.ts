@@ -1,10 +1,7 @@
 export interface BankAccount {
-    money: number;
-    deposit: (val: number) => void;
+    todo: string;
 }
 
 export interface Person {
-    name: string;
-    bankAccount: BankAccount;
-    hobbies: string[];
+    todo: string;
 }
