@@ -28,11 +28,13 @@ See [Microsoft Typescript wiki](https://github.com/Microsoft/TypeScript/wiki/FAQ
 {
   "noImplicitAny": true,
   "noUnusedParameters": true,
-  "sourceMap": true
+  "sourceMap": true,
+  "strictNullChecks": true
 }
 ```
 
-Unused parameters can be prefixed with _ to avoid error.
+* Unused parameters can be prefixed with _ to avoid error.
+* strict null checks disallow reassigning null to a variable.
 
 ## Chapter 4: TypeScript and ES6
 
@@ -50,6 +52,7 @@ class Person {
 ```
 
 ## Other resources
+
 [Typescript handbook](https://www.typescriptlang.org/docs/handbook/basic-types.html)
 
 [Typescript Deep Dive](https://basarat.gitbooks.io/typescript/)
